@@ -1,6 +1,4 @@
 public class Point3d extends Point2d{
-    //private double xCoord;
-    //private double yCoord;
     private double zCoord;
 
     public Point3d(double x, double y, double z) {
@@ -13,8 +11,7 @@ public class Point3d extends Point2d{
         this(0.0, 0.0, 0.0);
     }
 
-    public boolean equal(Point3d first) {
-        //return first.equals(this);
+    public boolean equal(Point3d first) { 
         return this.xCoord == first.xCoord && this.yCoord == first.yCoord && this.zCoord == this.zCoord;
     }
     public double distanceTo(Point3d first) {

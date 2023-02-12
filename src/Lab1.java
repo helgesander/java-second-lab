@@ -20,7 +20,6 @@ public class Lab1 {
             }
     }
     public static double computeArea(Point3d first, Point3d second, Point3d third) {
-        // Используем формулу Герона 
         double a = first.distanceTo(second);
         double b = second.distanceTo(third);
         double c = third.distanceTo(first);
